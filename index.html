@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="descriptioin" content="Home page for Blogs Website" />
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Home | BLOG | FLOWER POWER</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="./images/logo-text.png" alt="logo" /></div>
+      <ul>
+        <li>
+          <a href="index.html" class="active">Home</a>
+        </li>
+        <li>
+          <a href="all-posts.html">Blogs</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1><br />FLOWER POWER</h1><br />
+      <h2>LOVING CRAFTED BOUQUETS</h2>
+    </header>
+    <main>
+      <section>
+        <h3>Latest Blogs</h3>
+      </section>
+      <section class="btnBottomToggle">
+        <button id="left-top-carasoul-arrow"><</button>
+        <button id="right-top-carasoul-arrow">></button>
+      </section>
+      <section id="carasoul">
+        <button class="btnToggle" id="left-carasoul-arrow"><</button>
+        <div id="blogPosts"></div>
+        <button class="btnToggle" id="right-carasoul-arrow">></button>
+      </section>
+      <section class="btnBottomToggle">
+        <button id="left-bottom-carasoul-arrow"><</button>
+        <button id="right-bottom-carasoul-arrow">></button>
+      </section>
+      <section>
+        <a id="viewall-btn" href="all-posts.html">View All</a>
+      </section>
+    </main>
+    <footer>
+      <div class="social">
+        <img src="images/facebook.png" alt="facebook" />
+        <img src="images/instagram.png" alt="instagram" />
+      </div>
+      <div class="copyrights">Copyrights reserved@2021.</div>
+    </footer>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>

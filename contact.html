@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="descriptioin" content="Contact us page  for flower  power blog Website" />
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CONTACT US | BLOG | FLOWER POWER </title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="./images/logo-text.png" alt="logo" /></div>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="all-posts.html">Blogs</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- <header>
+      <h1>Contact Us</h1>
+    </header> -->
+    <main>
+      <section>
+        <h3>Contact Us</h3>
+      </section>
+      <section id="contact" class="all-posts">
+        <form id="conactForm">
+          <div id="contactMsg"></div>
+          <div class="form-group">
+            <input type="text" placeholder="Name" id="name" />
+            <div id="nameMsg"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Email" id="email" />
+            <div id="emailMsg"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" id="subject" />
+            <div id="subjectMsg"></div>
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            >Message</textarea>
+            <div id="messageMsg"></div>
+          </div>
+          <div class="form-group">
+            <button>Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="social">
+        <img src="images/facebook.png" alt="facebook" />
+        <img src="images/instagram.png" alt="instagram" />
+      </div>
+      <div class="copyrights">Copyrights reserved@2021.</div>
+    </footer>
+    <script src="js/contact.js" type="module"></script>
+  </body>
+</html>
